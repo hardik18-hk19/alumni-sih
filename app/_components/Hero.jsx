@@ -1,7 +1,8 @@
-import { Button } from "@/components/ui/button";
-import React from "react";
+"use client";
+import { useRouter } from "next/navigation";
 
 function Hero() {
+  const router= useRouter();
   return (
     <div>
       <header
@@ -19,9 +20,11 @@ function Hero() {
           <p className="text-xl mb-8">
             Empowering Alumni to Grow, Connect, and Contribute
           </p>
-          <Button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-sm text-white font-semibold">
+          <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-sm text-white font-semibold" 
+           onClick={() => router.push("/login")}
+          >
             Join Now
-          </Button>
+          </button>
         </div>
       </header>
     </div>
