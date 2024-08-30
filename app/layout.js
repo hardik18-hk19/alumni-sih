@@ -13,7 +13,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="light">
       <body className={inter.className}>
-        <GlobalState>{children}</GlobalState>
+        <GlobalState>
+          <main>{children}</main>
+        </GlobalState>
       </body>
     </html>
   );
