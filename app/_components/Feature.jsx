@@ -81,6 +81,11 @@ function feature() {
               story:
                 "Satyam's work in education reform has impacted thousands of students nationwide.",
             },
+            {
+              name: "Jitin",
+              story:
+                "Jitin has been a key player in the AI field for the past two decades.",
+            },
           ].map((story, index) => (
             <div key={index} className="bg-white p-8 rounded-lg shadow-lg">
               <h3 className="text-2xl font-semibold mb-4">{story.name}</h3>

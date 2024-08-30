@@ -1,6 +1,3 @@
-"use client";
-import { GlobalContext } from "@/context";
-import { useContext } from "react";
 import Aboutus from "./_components/Aboutus";
 import Hero from "./_components/Hero";
 import Navbar from "./_components/Navbar";
