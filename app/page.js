@@ -1,3 +1,4 @@
+import BlogList from "@/components/BlogList";
 import Aboutus from "./_components/Aboutus";
 import Hero from "./_components/Hero";
 import Navbar from "./_components/Navbar";
@@ -14,6 +15,10 @@ export default function Home() {
 
       {/* Features Section */}
       <Feature />
+      <div>
+        <BlogList/>
+      </div>
+     
 
       {/* About Us Section */}
       <Aboutus />
