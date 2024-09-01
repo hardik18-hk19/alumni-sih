@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",  // This sets the root of your project as the base URL
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"]  // This sets up the alias for absolute imports
     }
   }
 }
