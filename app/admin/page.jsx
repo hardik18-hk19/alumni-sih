@@ -4,7 +4,7 @@ import AdminDashboard from "./dashboard/page";
 function Dashboard() {
   return (
     <div>
-      <AdminDashboard />
+      
     </div>
   );
 }
